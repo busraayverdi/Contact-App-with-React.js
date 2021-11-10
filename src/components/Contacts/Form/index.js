@@ -5,7 +5,6 @@ const initialValues = { fullName: "", phoneNumber: "" };
 
 function Form({ addContact, contacts }) {
           const [form, setForm] = useState(initialValues);
-
           useEffect(() => {
                     setForm(initialValues);
           }, [contacts]);
