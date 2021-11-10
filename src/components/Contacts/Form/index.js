@@ -8,7 +8,6 @@ function Form({ addContact, contacts }) {
           useEffect(() => {
                     setForm(initialValues);
           }, [contacts]);
-
           const onChangeInput = (e) => {
                     setForm({ ...form, [e.target.name]: e.target.value });
           };
