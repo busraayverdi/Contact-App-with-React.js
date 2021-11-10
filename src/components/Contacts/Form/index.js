@@ -10,7 +10,7 @@ function Form({ addContact, contacts }) {
                     setForm(initialValues);
           }, [contacts]);
 
-          const onChangeInput = (e) =>{
+          const onChangeInput = (e) => {
                     setForm({ ...form, [e.target.name]: e.target.value });
           };
 
